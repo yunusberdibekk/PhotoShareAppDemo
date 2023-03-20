@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04DC42E29C515B900E24D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC42D29C515B900E24D07 /* AppDelegate.swift */; };
+		F04DC43029C515B900E24D07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC42F29C515B900E24D07 /* SceneDelegate.swift */; };
+		F04DC43729C515BB00E24D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04DC43629C515BB00E24D07 /* Assets.xcassets */; };
+		F04DC43A29C515BB00E24D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04DC43829C515BB00E24D07 /* LaunchScreen.storyboard */; };
+		F04DC44229C515D900E24D07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC44129C515D800E24D07 /* LoginViewController.swift */; };
+		F04DC44429C515E000E24D07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC44329C515E000E24D07 /* SettingsViewController.swift */; };
+		F04DC44629C5180000E24D07 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC44529C517FF00E24D07 /* UploadViewController.swift */; };
+		F04DC44829C5180800E24D07 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC44729C5180700E24D07 /* FeedViewController.swift */; };
+		F04DC44A29C5181C00E24D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04DC44929C5181B00E24D07 /* Main.storyboard */; };
+		F04DC44C29C5197600E24D07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F04DC44B29C5197600E24D07 /* GoogleService-Info.plist */; };
+		F04DC44F29C51A5500E24D07 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F04DC44E29C51A5500E24D07 /* FirebaseAuth */; };
+		F04DC45129C51A5500E24D07 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F04DC45029C51A5500E24D07 /* FirebaseDatabase */; };
+		F04DC45329C51A5500E24D07 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F04DC45229C51A5500E24D07 /* FirebaseStorage */; };
+		F095803429C651A2009AA519 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F095803329C651A2009AA519 /* SDWebImage */; };
+		F0AF294A29C5EBAB005191C7 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF294929C5EBAB005191C7 /* FeedTableViewCell.swift */; };
+		F0AF294C29C5F0DC005191C7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF294B29C5F0DC005191C7 /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F04DC42A29C515B900E24D07 /* PhotoShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04DC42D29C515B900E24D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04DC42F29C515B900E24D07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F04DC43629C515BB00E24D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04DC43929C515BB00E24D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F04DC43B29C515BB00E24D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04DC44129C515D800E24D07 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F04DC44329C515E000E24D07 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F04DC44529C517FF00E24D07 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		F04DC44729C5180700E24D07 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F04DC44929C5181B00E24D07 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F04DC44B29C5197600E24D07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0AF294929C5EBAB005191C7 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		F0AF294B29C5F0DC005191C7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04DC42729C515B900E24D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DC45129C51A5500E24D07 /* FirebaseDatabase in Frameworks */,
+				F04DC44F29C51A5500E24D07 /* FirebaseAuth in Frameworks */,
+				F095803429C651A2009AA519 /* SDWebImage in Frameworks */,
+				F04DC45329C51A5500E24D07 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04DC42129C515B900E24D07 = {
+			isa = PBXGroup;
+			children = (
+				F04DC42C29C515B900E24D07 /* PhotoShareApp */,
+				F04DC42B29C515B900E24D07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04DC42B29C515B900E24D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04DC42A29C515B900E24D07 /* PhotoShareApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04DC42C29C515B900E24D07 /* PhotoShareApp */ = {
+			isa = PBXGroup;
+			children = (
+				F04DC42D29C515B900E24D07 /* AppDelegate.swift */,
+				F04DC42F29C515B900E24D07 /* SceneDelegate.swift */,
+				F04DC44929C5181B00E24D07 /* Main.storyboard */,
+				F04DC43629C515BB00E24D07 /* Assets.xcassets */,
+				F04DC43829C515BB00E24D07 /* LaunchScreen.storyboard */,
+				F04DC43B29C515BB00E24D07 /* Info.plist */,
+				F04DC44129C515D800E24D07 /* LoginViewController.swift */,
+				F04DC44329C515E000E24D07 /* SettingsViewController.swift */,
+				F04DC44529C517FF00E24D07 /* UploadViewController.swift */,
+				F04DC44729C5180700E24D07 /* FeedViewController.swift */,
+				F0AF294929C5EBAB005191C7 /* FeedTableViewCell.swift */,
+				F04DC44B29C5197600E24D07 /* GoogleService-Info.plist */,
+				F0AF294B29C5F0DC005191C7 /* Post.swift */,
+			);
+			path = PhotoShareApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04DC42929C515B900E24D07 /* PhotoShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04DC43E29C515BB00E24D07 /* Build configuration list for PBXNativeTarget "PhotoShareApp" */;
+			buildPhases = (
+				F04DC42629C515B900E24D07 /* Sources */,
+				F04DC42729C515B900E24D07 /* Frameworks */,
+				F04DC42829C515B900E24D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoShareApp;
+			packageProductDependencies = (
+				F04DC44E29C51A5500E24D07 /* FirebaseAuth */,
+				F04DC45029C51A5500E24D07 /* FirebaseDatabase */,
+				F04DC45229C51A5500E24D07 /* FirebaseStorage */,
+				F095803329C651A2009AA519 /* SDWebImage */,
+			);
+			productName = PhotoShareApp;
+			productReference = F04DC42A29C515B900E24D07 /* PhotoShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04DC42229C515B900E24D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F04DC42929C515B900E24D07 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F04DC42529C515B900E24D07 /* Build configuration list for PBXProject "PhotoShareApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04DC42129C515B900E24D07;
+			packageReferences = (
+				F04DC44D29C51A5500E24D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F095803229C651A1009AA519 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = F04DC42B29C515B900E24D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04DC42929C515B900E24D07 /* PhotoShareApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04DC42829C515B900E24D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DC43A29C515BB00E24D07 /* LaunchScreen.storyboard in Resources */,
+				F04DC44C29C5197600E24D07 /* GoogleService-Info.plist in Resources */,
+				F04DC43729C515BB00E24D07 /* Assets.xcassets in Resources */,
+				F04DC44A29C5181C00E24D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04DC42629C515B900E24D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DC44229C515D900E24D07 /* LoginViewController.swift in Sources */,
+				F04DC44629C5180000E24D07 /* UploadViewController.swift in Sources */,
+				F0AF294A29C5EBAB005191C7 /* FeedTableViewCell.swift in Sources */,
+				F0AF294C29C5F0DC005191C7 /* Post.swift in Sources */,
+				F04DC42E29C515B900E24D07 /* AppDelegate.swift in Sources */,
+				F04DC44429C515E000E24D07 /* SettingsViewController.swift in Sources */,
+				F04DC43029C515B900E24D07 /* SceneDelegate.swift in Sources */,
+				F04DC44829C5180800E24D07 /* FeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F04DC43829C515BB00E24D07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04DC43929C515BB00E24D07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04DC43C29C515BB00E24D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04DC43D29C515BB00E24D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04DC43F29C515BB00E24D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJJ9RPZ7XR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoShareApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibekk.PhotoShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04DC44029C515BB00E24D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJJ9RPZ7XR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoShareApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibekk.PhotoShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04DC42529C515B900E24D07 /* Build configuration list for PBXProject "PhotoShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04DC43C29C515BB00E24D07 /* Debug */,
+				F04DC43D29C515BB00E24D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04DC43E29C515BB00E24D07 /* Build configuration list for PBXNativeTarget "PhotoShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04DC43F29C515BB00E24D07 /* Debug */,
+				F04DC44029C515BB00E24D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F04DC44D29C51A5500E24D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F095803229C651A1009AA519 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F04DC44E29C51A5500E24D07 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F04DC44D29C51A5500E24D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F04DC45029C51A5500E24D07 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F04DC44D29C51A5500E24D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F04DC45229C51A5500E24D07 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F04DC44D29C51A5500E24D07 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F095803329C651A2009AA519 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F095803229C651A1009AA519 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F04DC42229C515B900E24D07 /* Project object */;
+}
